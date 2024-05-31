@@ -1,0 +1,6 @@
+users:
+  - name: localadmin
+    groups: sudo
+    shell: /bin/bash
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    ssh-keys: localadmin:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPa40W02FaJFnVC6BIHUt9ynjupdilOVyDCCLatmmcOD localadmin
