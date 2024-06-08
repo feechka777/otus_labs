@@ -16,7 +16,7 @@ nginx
 со следующим содержанием:
 vm_user = "ubuntu"
 ssh_key_private = "~/.ssh/id_ed25519"
-ssh_pub_key =  *тексt значение публичного ключа (команда cat ~/.ssh/id_ed25519.pub")*
+ssh_pub_key =  *тексt значение публичного ключа .команда cat ~/.ssh/id_ed25519.pub*
 ssh_key_public = "~/.ssh/id_ed25519.pub"
 yc_cloud_id = *Указать в двойных кавычках cloud id из личного кабинета Яндекс Клауд*
 yc_folder_id = *Указать в двойных кавычках folder id для данного проекта из личного кабинета Яндекс Клауд*
