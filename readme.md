@@ -47,4 +47,5 @@ yc_folder_id = *Указать в двойных кавычках folder id дл
 6. Для дебага можно задать переменные:
 
 export TF_LOG="DEBUG"
+
 export TF_LOG_FILE="~/terraform/terraform.log"
